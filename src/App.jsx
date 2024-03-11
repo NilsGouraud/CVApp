@@ -92,7 +92,7 @@ function App() {
           });
         }}
       >
-        save resume as PDF
+        save resume as PDF (could fail)
       </button>
 
       <div className="resume" id="resume">
