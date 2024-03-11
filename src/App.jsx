@@ -1,4 +1,5 @@
 import { useState } from "react";
+import { useEffect } from "react";
 import "./App.css";
 import FormExperiences from "./Forms/FormExperiences";
 import FormEducation from "./Forms/FormEducation";
@@ -10,6 +11,7 @@ import Experience from "./Experience";
 import Education from "./Education";
 import { jsPDF } from "jspdf";
 function App() {
+alert("le site est en cours de développement");
   let count = 0;
   let defaultContent = {
     name: "Nils",
